@@ -5,6 +5,7 @@ import androidx.room.Relation
 import com.kuluruvineeth.roomtables.entities.Director
 import com.kuluruvineeth.roomtables.entities.School
 
+//1-1 relationship
 data class SchoolAndDirector(
     @Embedded val school: School, //fetches all properties of that entity
     @Relation(
